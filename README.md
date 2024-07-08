@@ -5,5 +5,5 @@ A small bash script to get git and gh setup on your MacOS or Linux machine. The 
 ## Usage
 
 ```bash
-curl -s https://raw.githubusercontent.com/idearium/devspace-setup/main/setup.sh | bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/idearium/devspace-setup/main/setup.sh)"
 ```
